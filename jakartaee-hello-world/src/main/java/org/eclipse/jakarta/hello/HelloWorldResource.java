@@ -16,6 +16,8 @@ public class HelloWorldResource {
 			name = "world";
 		}
 
+		System.out.println("Olá");
+
 		return new Hello(name);
 	}
 }
